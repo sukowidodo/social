@@ -9,13 +9,15 @@ class MessageController extends Controller
 {
     function index()
     {
-        $message = Message::where("recepient_id", auth()->user()->id)->get();
+        $message = Message::with("sender")->where("recepient_id", auth()->user()->id)->get();
+//        dd($message);
         return view("pages.message.index", compact("message"));
     }
 
-    function destroy(Message $message)
+    function destroy($id)
     {
         try {
+            $message = Message::find($id);
             $message->delete();
             return redirect()->back();
         } catch (\Exception $exception){

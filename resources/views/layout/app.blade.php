@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SocialV | Responsive Bootstrap 5 Admin Dashboard Template</title>
+    <title>Web Sosial Media</title>
 
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
     <link rel="stylesheet" href="/assets/css/libs.min.css">
@@ -19,8 +19,8 @@
 <body class="  ">
 <!-- loader Start -->
 <div id="loading">
-    <div id="loading-center">
-    </div>
+{{--    <div id="loading-center">--}}
+{{--    </div>--}}
 </div>
 <!-- loader END -->
 <!-- Wrapper Start -->
@@ -38,7 +38,7 @@
                 <div class="iq-navbar-logo d-flex justify-content-between">
                     <a href="/">
                         <img src="/assets/images/logo.png" class="img-fluid" alt="">
-                        <span>SocialV</span>
+                        <span>Web Sosial Media</span>
                     </a>
                     <div class="iq-menu-bt align-self-center">
                         <div class="wrapper-menu">
@@ -308,14 +308,14 @@
                             <a href="#" class="   d-flex align-items-center dropdown-toggle" id="drop-down-arrow" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src="{{ auth()->user()->photo }}" class="img-fluid rounded-circle me-3" alt="user">
                                 <div class="caption">
-                                    <h6 class="mb-0 line-height">Bni Cyst</h6>
+                                    <h6 class="mb-0 line-height">{{ auth()->user()->name }}</h6>
                                 </div>
                             </a>
                             <div class="sub-drop dropdown-menu caption-menu" aria-labelledby="drop-down-arrow">
                                 <div class="card shadow-none m-0">
                                     <div class="card-header  bg-primary">
                                         <div class="header-title">
-                                            <h5 class="mb-0 text-white">Hello Bni Cyst</h5>
+                                            <h5 class="mb-0 text-white">Hello {{ auth()->user()->name }}</h5>
                                             <span class="text-white font-size-12">Available</span>
                                         </div>
                                     </div>

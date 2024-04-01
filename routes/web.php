@@ -12,3 +12,4 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::resource('user', UserController::class);
 Route::resource('message', MessageController::class);
+Route::get("/message/{id}/delete",[MessageController::class,"destroy"]);

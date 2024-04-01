@@ -12,7 +12,7 @@
         </li>
         <li class="">
             <a href="/message" class=" ">
-                <i class="ri-mail-line"></i><span>Group</span>
+                <i class="ri-mail-line"></i><span>Message</span>
             </a>
         </li>
 {{--        <li class=" ">--}}

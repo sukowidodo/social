@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SocialV | Responsive Bootstrap 4 Admin Dashboard Template</title>
+    <title>Web Sosial Media</title>
 
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
     <link rel="stylesheet" href="/assets/css/libs.min.css">
@@ -20,8 +20,8 @@
 <body class=" ">
 <!-- loader Start -->
 <div id="loading">
-    <div id="loading-center">
-    </div>
+{{--    <div id="loading-center">--}}
+{{--    </div>--}}
 </div>
 <!-- loader END -->
 
@@ -38,7 +38,7 @@
             <div class="row no-gutters">
                 <div class="col-md-6 text-center pt-5">
                     <div class="sign-in-detail text-white">
-                        <a class="sign-in-logo mb-5" href="#"><img src="/assets/images/logo-full.png" class="img-fluid" alt="logo"></a>
+{{--                        <a class="sign-in-logo mb-5" href="#"><img src="/assets/images/logo-full.png" class="img-fluid" alt="logo"></a>--}}
                         <div class="sign-slider overflow-hidden ">
                             <ul  class="swiper-wrapper list-inline m-0 p-0 ">
                                 <li class="swiper-slide">
@@ -69,7 +69,7 @@
                             @csrf
                             <div class="form-group">
                                 <label class="form-label" for="exampleInputEmail1">Email address</label>
-                                <input name="email" type="email" class="form-control mb-0" id="exampleInputEmail1" placeholder="Enter email" value="voodoomodoo@gmail.com">
+                                <input name="email" type="email" class="form-control mb-0" id="exampleInputEmail1" placeholder="Enter email" value="pelangikartika@gmail.com">
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="exampleInputPassword1">Password</label>

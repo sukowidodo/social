@@ -84,7 +84,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SocialV | Responsive Bootstrap 4 Admin Dashboard Template</title>
+    <title>Web Sosial Media</title>
 
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
     <link rel="stylesheet" href="/assets/css/libs.min.css">
@@ -99,8 +99,8 @@
 <body class=" ">
 <!-- loader Start -->
 <div id="loading">
-    <div id="loading-center">
-    </div>
+{{--    <div id="loading-center">--}}
+{{--    </div>--}}
 </div>
 <!-- loader END -->
 
@@ -117,7 +117,7 @@
             <div class="row no-gutters">
                 <div class="col-md-6 text-center pt-5">
                     <div class="sign-in-detail text-white">
-                        <a class="sign-in-logo mb-5" href="#"><img src="/assets/images/logo-full.png" class="img-fluid" alt="logo"></a>
+{{--                        <a class="sign-in-logo mb-5" href="#"><img src="/assets/images/logo-full.png" class="img-fluid" alt="logo"></a>--}}
                         <div class="sign-slider overflow-hidden ">
                             <ul  class="swiper-wrapper list-inline m-0 p-0 ">
                                 <li class="swiper-slide">
@@ -194,7 +194,7 @@
                                 <button type="submit" class="btn btn-primary float-end">Sign Up</button>
                             </div>
                             <div class="sign-info">
-                                <span class="dark-color d-inline-block line-height-2">Already Have Account ? <a href="sign-in.html">Log In</a></span>
+                                <span class="dark-color d-inline-block line-height-2">Already Have Account ? <a href="/login">Log In</a></span>
                                 <ul class="iq-social-media">
                                     <li><a href="#"><i class="ri-facebook-box-line"></i></a></li>
                                     <li><a href="#"><i class="ri-twitter-line"></i></a></li>

@@ -16,7 +16,7 @@
                             <img src="{{ auth()->user()->photo }}" alt="profile-img" class="avatar-130 img-fluid" />
                         </div>
                         <div class="profile-detail">
-                            <h3 class="">Bni Cyst</h3>
+                            <h3 class="">{{ auth()->user()->name }}</h3>
                         </div>
                     </div>
                     <div class="profile-info p-3 d-flex align-items-center justify-content-between position-relative">
@@ -217,7 +217,7 @@
                                 <div class="card-body">
                                     <div class="d-flex align-items-center">
                                         <div class="user-img">
-                                            <img src="../assets/images/user/1.jpg" alt="userimg" class="avatar-60 rounded-circle">
+                                            <img src="{{ auth()->user()->photo }}" alt="userimg" class="avatar-60 rounded-circle">
                                         </div>
                                         <form class="post-text ms-3 w-100 "  data-bs-toggle="modal" data-bs-target="#post-modal" action="#">
                                             <input type="text" class="form-control rounded" placeholder="Write something here..." style="border:none;">
@@ -256,7 +256,7 @@
                                             <div class="modal-body">
                                                 <div class="d-flex align-items-center">
                                                     <div class="user-img">
-                                                        <img src="../assets/images/user/1.jpg" alt="userimg" class="avatar-60 rounded-circle img-fluid">
+                                                        <img src="{{ auth()->user()->photo }}" alt="userimg" class="avatar-60 rounded-circle img-fluid">
                                                     </div>
                                                     <form class="post-text ms-3 w-100" action="#">
                                                         <input type="text" class="form-control rounded" placeholder="Write something here..." style="border:none;">
@@ -294,7 +294,7 @@
                                                     <div class="d-flex align-items-center justify-content-between">
                                                         <div class="d-flex align-items-center">
                                                             <div class="user-img me-3">
-                                                                <img src="../assets/images/user/1.jpg" alt="userimg" class="avatar-60 rounded-circle img-fluid">
+                                                                <img src="{{ auth()->user()->photo }}" alt="userimg" class="avatar-60 rounded-circle img-fluid">
                                                             </div>
                                                             <h6>Your Story</h6>
                                                         </div>
@@ -357,12 +357,12 @@
                                         <div class="user-post-data pb-3">
                                             <div class="d-flex justify-content-between">
                                                 <div class="me-3">
-                                                    <img class="rounded-circle  avatar-60" src="../assets/images/user/1.jpg" alt="">
+                                                    <img class="rounded-circle  avatar-60" src="{{ auth()->user()->photo }}" alt="">
                                                 </div>
                                                 <div class="w-100">
                                                     <div class="d-flex justify-content-between flex-wrap">
                                                         <div class="">
-                                                            <h5 class="mb-0 d-inline-block"><a href="#" class="">Bni Cyst</a></h5>
+                                                            <h5 class="mb-0 d-inline-block"><a href="#" class="">{{ auth()->user()->name }}</a></h5>
                                                             <p class="ms-1 mb-0 d-inline-block">Add New Post</p>
                                                             <p class="mb-0">3 hour ago</p>
                                                         </div>
@@ -537,12 +537,12 @@
                                         <div class="user-post-data py-3">
                                             <div class="d-flex  justify-content-between">
                                                 <div class="me-3">
-                                                    <img class="rounded-circle  avatar-60" src="../assets/images/user/1.jpg" alt="">
+                                                    <img class="rounded-circle  avatar-60" src="{{ auth()->user()->photo }}" alt="">
                                                 </div>
                                                 <div class="w-100">
                                                     <div class="d-flex justify-content-between">
                                                         <div class="">
-                                                            <h5 class="mb-0 d-inline-block me-1"><a href="#" class="">Bni Cyst</a></h5>
+                                                            <h5 class="mb-0 d-inline-block me-1"><a href="#" class="">{{ auth()->user()->name }}</a></h5>
                                                             <p class="mb-0 d-inline-block">Share Anna Mull's Post</p>
                                                             <p class="mb-0">5 hour ago</p>
                                                         </div>
@@ -717,12 +717,12 @@
                                         <div class="user-post-data py-3">
                                             <div class="d-flex justify-content-between">
                                                 <div class="me-3">
-                                                    <img class="rounded-circle avatar-60" src="../assets/images/user/1.jpg" alt="">
+                                                    <img class="rounded-circle avatar-60" src="{{ auth()->user()->photo }}" alt="">
                                                 </div>
                                                 <div class="w-100">
                                                     <div class="d-flex justify-content-between">
                                                         <div class="">
-                                                            <h5 class="mb-0 d-inline-block"><a href="#" class="">Bni Cyst</a></h5>
+                                                            <h5 class="mb-0 d-inline-block"><a href="#" class="">{{ auth()->user()->name }}</a></h5>
                                                             <p class="ms-1 mb-0 d-inline-block">Update his Status</p>
                                                             <p class="mb-0">7 hour ago</p>
                                                         </div>
@@ -897,12 +897,12 @@
                                         <div class="user-post-data py-3">
                                             <div class="d-flex justify-content-between">
                                                 <div class=" me-3">
-                                                    <img class="rounded-circle avatar-60" src="../assets/images/user/1.jpg" alt="">
+                                                    <img class="rounded-circle avatar-60" src="{{ auth()->user()->photo }}" alt="">
                                                 </div>
                                                 <div class="w-100">
                                                     <div class="d-flex justify-content-between">
                                                         <div class="">
-                                                            <h5 class="mb-0 d-inline-block me-1"><a href="#" class="">Bni Cyst</a></h5>
+                                                            <h5 class="mb-0 d-inline-block me-1"><a href="#" class="">{{ auth()->user()->name }}</a></h5>
                                                             <p class=" mb-0 d-inline-block">Change Profile Picture</p>
                                                             <p class="mb-0">3 day ago</p>
                                                         </div>

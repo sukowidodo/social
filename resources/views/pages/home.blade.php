@@ -15,7 +15,7 @@
                                         <div class="">
                                             <h5 class="mb-0 d-inline-block">{{$pos->user->name}}</h5>
                                             {{--                                        <span class="mb-0 d-inline-block">Added New Image in a Post</span>--}}
-                                            <p class="mb-0 text-primary">1 hour ago</p>
+                                            <p class="mb-0 text-primary">{{$pos->created_at->toDateTimeString()}}</p>
                                         </div>
                                         <div class="card-post-toolbar">
                                             <div class="dropdown">
